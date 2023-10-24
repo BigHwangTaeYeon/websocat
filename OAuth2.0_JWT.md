@@ -1,7 +1,8 @@
 # websocat
 
-[참조](https://doozi0316.tistory.com/entry/WebSocket%EC%9D%B4%EB%9E%80-%EA%B0%9C%EB%85%90%EA%B3%BC-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95-socketio-Polling-Streaming)
+https://doozi0316.tistory.com/entry/WebSocket%EC%9D%B4%EB%9E%80-%EA%B0%9C%EB%85%90%EA%B3%BC-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95-socketio-Polling-Streaming
 
+    블로그 내용
 나는 이 기능을 구현하기 위해 5초마다 한번 씩 데이터의 수정된 시간를 DB에서 가져왔고,
 DB에서 가져온 수정된 시간이 기존 수정된 시간과 다르다면 화면이 refresh 되도록 구현했다.
 (이렇게 일정 주기로 통신하여 가져오는 방법을 Polling 이라고 한단다.)
